@@ -17,7 +17,7 @@
 					font-family: 'Coursier New', Cousier, monospace;
 				}
 			body {
-				background-image: url(file:///E:/PROGRAMACAO/img/rbx.png);/*desnecessario*/
+				background-image: url(https://amiltongovegove.github.io/programacao/imagens/img/rbx.png);/*desnecessario*/
 			}
 			main {
 				border: 2px solid black;
@@ -31,7 +31,7 @@
 			/*Tablet*/
 			@media screen and (min-width: 768px) and (max-width: 992px) { 
 			body {
-				background-image: url(file:///E:/PROGRAMACAO/img/rbx.png);
+				background-image: url(https://amiltongovegove.github.io/programacao/imagens/img/rbx.png);
 			}
 			img#phone { display: none; }
 			img#tablet {display: block; }
@@ -43,7 +43,7 @@
 			/*Desktop*/
 			@media screen and (min-width: 992px) and (max-width: 1200px) { 
 			body {
-				background-image: url(file:///E:/PROGRAMACAO/img/ff.png);
+				background-image: url(https://amiltongovegove.github.io/programacao/imagens/img/ff.png);
 			}
 			img#phone { display: none; }
 			img#tablet {display: none; }
@@ -55,7 +55,7 @@
 			/*Grandes telas*/
 			@media screen and (min-width: 1200px) { 
 			body {
-				background-image: url(file:///E:/PROGRAMACAO/img/codm.png);
+				background-image: url(https://amiltongovegove.github.io/programacao/imagens/img/codm.png);
 			}
 			img#phone { display: none; }
 			img#tablet {display: none; }
