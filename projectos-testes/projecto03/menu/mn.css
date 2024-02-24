@@ -1,0 +1,37 @@
+         nav#menu{
+              display: block;
+             }
+              nav#menu h1{
+              display:none;
+             }  
+         nav#menu li{
+              display: inline-block;
+              background-color: #dddddd; 
+              padding: 2px;
+              margin: 10px;
+               transition: background-color 1s;
+             }
+                
+         nav#menu li:hover{
+              background-color: #606060;
+             } 
+         nav#menu a {
+              color: #000000;
+              text-decoration: none;
+             }
+         nav#menu a:hover {
+              color: #ffffff; 
+             }
+         nav#menu li{
+              list-style:none;
+              test-transform: uppercase;
+              position: relative;
+              top: -10px;
+              left: 0%;
+             }
+         header{
+              display: block;
+              width: 80%;
+             }
+         
+       

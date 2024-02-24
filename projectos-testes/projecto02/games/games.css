@@ -1,0 +1,36 @@
+
+              h1{
+              font-family:Arial;
+              font-size:20pt;
+              color:gray; 
+              }
+              p{
+              text-align: justify;
+              text-indent: 20px;
+              }
+              article h1{
+              font-size:20pt;
+              color: #ffffff;
+              background-color :#dddddd;
+              padding: 5px;
+              margin: 0px;
+              }
+              article h1{
+              font-size:12pt;
+              color: #606060;
+              background-color: #dddddd;
+              padding: 5px 0px 5px 10px;
+              margin: 10px 0px 10px 0px;
+              }
+              article{
+              margin-bottom: 10px;
+              }
+              img{
+              width:10%;
+              position: relative;
+              top: -5%;
+              left: 90%;
+              }            
+              footer#rodape p {
+              text-align: center;
+              }  

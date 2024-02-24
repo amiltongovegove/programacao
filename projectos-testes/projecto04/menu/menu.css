@@ -1,0 +1,90 @@
+            header, h1, menu, a, ul,li  {
+            font-family: Arial, Helvetica, sans-serif;
+			margin: 0;
+			padding: 0;
+            }
+	        body, html {
+	        background-color: lightgray;
+			}
+			header {
+			background-color: rgba(148, 148, 148);
+			box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+			}
+			header > h1{
+			padding: 0;
+			text-align: center;
+			}
+			a#burguer {
+			background-color: rgba(48, 48, 48);
+			color: white;
+			display: block;
+			text-align: center;
+			padding: 10px;
+			cursor: pointer;
+			transition: background-color 0.4s;
+			}
+		    a#burguer:hover {
+			background-color: white;
+			color: black;
+			}
+			menu {
+			display: none;
+			}
+			menu > ul {
+			list-style-type: none;
+			}
+			menu > ul > li > a {
+			display: block;
+			padding: 10px;
+			text-decoration: none;
+			text-align: center;
+			background-color: rgb(87, 87, 87);
+			color: white;
+			border-top: 2px solid gray;
+			transition: background-color 0.4s;
+			}
+			menu > ul > li > a:hover {
+			background-color: gray;
+			}
+			div.bod{
+            width:80%;
+            margin: 10px auto 10px auto;
+            padding: 1px;
+            }
+            div{
+            background-color: white ;
+            box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+            } 
+			footer#rodape p {
+            text-align: center;
+            } 
+			p{
+            text-align:justify;
+            text-indent:10px;
+            }
+			@media screen and (min-width: 780px) {
+	        a#burguer {
+		    display: none;
+		    }
+		    menu {
+		    display: block;
+		    }
+		    menu > ul >li {
+		    display: inline-block;
+		    }
+		    }
+			.ul {
+			position: relative;
+			left: 10%;
+			}
+			.tcategorias{
+			text-align: center;
+			color: gray;
+			}
+			p > a,a {
+			color: gray;
+            text-decoration: none;
+            }
+            p > a:hover{
+            text-decoration: underline;
+            }		

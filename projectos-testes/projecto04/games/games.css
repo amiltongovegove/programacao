@@ -1,0 +1,30 @@
+              .tcategorias{
+			  font-font-family: 20pt;
+			  }
+			  article h1{
+              color: #606060;
+              background-color: #dddddd;
+              padding: 10px;
+              margin: 10px;
+              }
+              article{
+              margin-bottom: 10px;
+              }
+              img{
+              width:10%;
+			  position: relative;
+              top: -5%;
+              left: 90%;
+              }            
+              .inst{
+              background: green;
+              color: white;
+              width: 80%;
+              height: 30px;
+              line-height: 30px; 
+              text-align: center;
+			  transition: background-color 0.4s;
+              }
+			  .inst:hover{
+			  background: rgb(0, 51, 0);
+			  } 

@@ -1,0 +1,55 @@
+             header{
+             display: block;
+             width: 100%;
+             }
+             header#cabecalho {
+             height: 50px; 
+             }
+             body{
+             background-color:gray;
+             margin: auto;
+             }
+             div.men{
+             position: relative;
+             top: -16px;
+             height: 150px auto;
+             }  
+             div.bod{
+             width:80%;
+             margin: 10px auto 10px auto;
+             padding:1px;
+             }
+             div{
+             background-color: white ;
+             box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+             } 
+             nav#menu{
+             display: block;
+             }
+             nav#menu h1{
+             display:none;
+             }  
+             nav#menu li{
+             display: inline-block;
+             background-color: #dddddd; 
+             padding: 2px;
+             margin: 8px;
+             transition: background-color 1s;
+             }    
+             nav#menu li:hover{
+             background-color: #606060;
+             } 
+             nav#menu a {
+             color: #000000;
+             text-decoration: none;
+             }
+             nav#menu a:hover {
+             color: #ffffff; 
+             }
+             nav#menu li{
+             list-style:none;
+             test-transform: uppercase;
+             position: relative;
+             top: -5px;
+             left: 0%;
+             }

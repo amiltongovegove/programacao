@@ -1,0 +1,26 @@
+            <!DOCTYPE html>
+            <html lang= "pt">
+            <head>
+            <meta charset= "uft-8">
+            <meta name="viewport" content="width=device=width, initial-scale=1.0">
+            <title>Form</title>
+            <link rel="stylesheet" href="">
+	        <script language="javascript" src=""></script>
+            </head>
+            <body>
+			<h1>Testando form</h1>
+			<form action="cadastro.php" method="POST" autocomplete="on">
+			<p>
+			<label for="iusu">Senha: </label>
+			<input type="text" name="usu" id="iusu" required="on" minlength="5" maxlength="30" size="10" placeholder="nome do usuario" autocomplete="username">
+			</p>
+			<p>
+			<label for="isen">Senha: </label>
+			<input type="password" name="sen" id="isen" required minlength="8" maxlength="20" placeholder="minimo 8 letras" autocomplete="current-password">
+			</p>
+			<p>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Limpar">
+			</form>
+            </body>
+            </html>

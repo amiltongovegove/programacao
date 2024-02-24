@@ -1,0 +1,17 @@
+              h1{
+              font-family:Arial;
+              font-size:15pt;
+              color:gray;
+              } 
+              legend{
+              font-family:Arial;
+              font-size:20pt;
+              color:gray; 
+              }
+              footer#rodape p {
+              text-align: center;
+              } 
+              fieldset{
+              margin-bottom: 10px;
+              }
+         

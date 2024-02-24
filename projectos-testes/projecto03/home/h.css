@@ -1,0 +1,72 @@
+
+         div.bod{
+             width:80%;
+             background-color: white ;
+             margin: 10px auto 10px auto;
+             padding:1px;
+             } 
+         body{
+              background-color: gray;
+              font-family: Arial;
+              font-size: 10pt;
+             }
+          header#cabecalho {
+              height: 100px; 
+             }
+         h1{
+             font-family:Arial;
+             font-size:30pt auto;
+             color:gray; 
+            }
+
+         h2{
+             font-size:12pt;
+             color: #606060;
+             background-color: #dddddd;
+             padding: 5px 0px 5px 10px;
+             margin: 10px 0px 10px 0px;
+            }
+
+         p{
+             font:normal 10pt Arial;
+             text-align:justify;
+             text-indent:10px;
+            }
+
+         footer p {
+             text-align: center;
+            }
+         img{
+             width:25%;
+             position: relative;
+             left: 35% ;
+              }
+       
+         table#tabelajogos{
+             border: 1px solid #606060;
+             border-spacing: 0px;
+             margin-left:auto;
+             margin-right:auto;
+               }
+               table#tabelajogos td{
+             border: 1px solid #606060;
+             padding:10px;
+               }
+         table#tabelajogos td.ce {
+             color:#ffffff;
+             background-color: #606060;             
+             vertical-align: top;
+             font-weight: bold;
+            }
+             table#tabelajogos td.cd {
+             background-color: #cecece;  
+            }  
+             
+         img#casa{
+             width:10%;
+             position: relative;
+             top: -80%;
+             left: 104%;
+            }
+ 
+    

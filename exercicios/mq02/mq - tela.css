@@ -1,0 +1,8 @@
+            @charset "UTF-8";
+			/*Aparelho em pe (portrait)*/
+			
+			body {
+				background-image: url('file:///E:/PROGRAMACAO/img/bcm.png');
+				background-position: center bottom;
+			}
+			
