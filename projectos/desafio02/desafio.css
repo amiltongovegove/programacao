@@ -65,11 +65,11 @@
 				text-shadow: 2px 2px 0px black;
 			}
 			#img01{
-				background-image:url('../img/ff.png');
+				background-image:url('https://amiltongovegove.github.io/programacao/imagens/img/ff.png');
 				background-position: right center;
 			}
 			#img02{
-				background-image:url('../img/coc.png');
+				background-image:url('https://amiltongovegove.github.io/programacao/imagens/img/coc.png');
 			}
 			footer {
 				background-color: black;
