@@ -7,7 +7,12 @@
               <link rel="stylesheet" href="/programacao/projectos-testes/projecto04/faleconosco.css">
               <link rel="stylesheet"href="/programacao/projectos-testes/projecto04/menu/menu.css">
 			  <script language="javascript" src="/programacao/projectos-testes/projecto04/menu/menujs.js"></script>
-              </head>
+              <style>
+                     p, fieldset, label, legend{
+                            margin-bottom: 10px;
+                     }
+              </style>
+                     </head>
               <body onmouseleave="mudouTamanho()">
 		      <header>
 		         <h1>FALE CONOSCO</h1>
@@ -30,7 +35,7 @@
                      <input type="password" name="tSenha" id"cSenha" size="8" maxlenght="8" placeholder="8 digitos"/></p>
                      <p><label for="Mail">E-mail: </label>
                      <input type="password" name="tMail" id="cMail" size="20" maxlenght="40"/></p>
-              </fieldset>         
+              </fieldset>        
               <fieldset id="sexo"><legend>Sexo</legend>
                      <input type="radio" name="tSexo" id="cMasc" checked/> <label for="cMasc">Masculino</label><br>
                      <input type="radio" name="tSexo" id="cFem"> <label for="cFam">Femenino</label>
@@ -53,13 +58,13 @@
                      <option value="Maputo"></option>
                      <option value="Inhambane"></option>
                      </datalist>
-              </fieldset>              
+              </fieldset> 
               <fieldset id="mensagem"><legend>Mensagem do Usuario</legend>
                      <p><label for="cUrg">Grau de Urgencia:</label>
                      Min<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="5"/>Max</p>
                      <p><label for="cMsg">Mensagem:</label>
                      <textarea name="tMsg" id="cmsg" cols="20 auto" rows="5" placeholder="Deixe aqui a sua mensagem"></textarea></p>
-                     </fieldset>                
+                     </fieldset>         
               <fieldset id="pedido"><legend>Quer um PS5</legend>
                      <p><input type="checkbox" name="tPed" id="cPed" checked/>
                      <label for="cPed">Quer um PS5?</label>
