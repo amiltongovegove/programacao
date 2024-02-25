@@ -5,13 +5,10 @@
              padding: 10px;
              margin: 10px;
              }
-             ul{
-                padding: 10px;
-             }
-			 img{
-             width:25%;
-             position: relative;
-             left: 35% ;
+			    img{
+             width: 25%;
+             display: block;
+             margin: auto;
              }
              table#tabelajogos{
              border: 1px solid #606060;
