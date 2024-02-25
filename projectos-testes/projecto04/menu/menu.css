@@ -50,7 +50,7 @@
 			background-color: gray;
 			}
 			div.bod{
-            width:50%;
+            width:80%;
             margin: 10px auto 10px auto;
             padding: 10px;
             }
@@ -66,9 +66,6 @@
             text-indent:10px;
             }
 			@media screen and (min-width: 780px) {
-				div.bod{
-					width:90%;
-				}
 	        a#burguer {
 		    display: none;
 		    }
