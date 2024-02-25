@@ -1,6 +1,5 @@
-              form{
-                padding: 10px;
-                margin: 10px;
+              form > p {
+                margin-bottom: 10px;
               }
               legend{
               font-family:Arial;
