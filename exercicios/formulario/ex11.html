@@ -5,7 +5,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crie a sua conta</title>
     <style>
-
+/*
+			Paleta de corres:
+			Verde: #49a09d
+			Rocho: #5f2c82
+			*/
+			
+			* {
+				font-family: Arial, Helvetica, sans-serif;
+				padding: 0px;
+				margin: 0px;
+				box-sizing: border-box;
+			}
+			body, html {
+			    background-color: #5f2c82;
+			    height: 100vh;
+			    width: 100vw;
+			}
+			main {
+				position: relative;
+				height: 100vh;
+			    width: 100vw;
+			}
+			section#login {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				overflow: hidden;
+				
+				background-color: white;
+				width: 250px;
+				height: 550px;
+				border-radius: 20px;
+				box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+				
+				transition: width .3s, height .3s;
+				transition-timing-function: ease;
+			}
+			section#login > div#imagem {
+				display: block;
+				background: #5f2c82 url(https://amiltongovegove.github.io/programacao/imagens/img/bcm.png) no-repeat;
+				background-size: cover;
+				background-position: center center;
+				height: 200px;
+			}
+			section#login > div#formulario {
+				display: block;
+				padding: 10px;
+			}
+			div#formulario > h1 {
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			div#formulario > p {
+				font-size: 0.8em;
+			}
+			div.campo, input {
+				background-color: #fff;
+				display: block;
+				width: 100%;
+				height: 40px;
+				border-radius: 8px;
+				border-color: #6cd3cf;
+				margin: 5px 0px;
+			}
+			div.campo label {
+				display: none;
+			}
+			#entrar {
+				display: block;
+				font-size: 1em;
+				width: 100%;
+				height: 40px;
+				background-color: #49a09d;
+				color: white;
+				border: none;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+			#entrar:hover {
+				background-color: #2d6462;
+			}
+			a.botao {
+				display: block;
+				text-align: center;
+				font-size: 1em;
+				width: 100%;
+				height: 40px;
+				padding-top: 5px;
+				margin-top: 5px;
+				background-color: white;
+				color: #2d6462;
+				border: 1px solid #49a09d;
+				border-radius: 7px;
+				text-decoration: none;
+				cursor: pointer;
+			}
+			a.botao:hover {
+				background-color: #6cd3cf;
+			}
+			a.botao > i {
+				font-size: 0.8em;
+			}
+    </style>
+    <style>
+        /*
+			Typical Devace Breakpoints
+			-------------------------
+			Pequenas telas: ate 600px
+			Celular: de 600px ate 768px
+			Tablet: de 768px ate 992px
+			Celular: de 992px ate 1200px
+			Grandes telas: acima de 1200px
+			*/
+			
+			@media screen and (min-width: 768px) and (max-width: 992px) {
+			body{
+				background-image: linear-gradient(to top, #49a09d, #5f2c82);
+			}
+			
+			section#login {
+				width: 80vw;
+				height: 350px;
+			}
+			section#login > div#imagem {
+				float: left;
+				width: 30%;
+				height: 100%;
+			}
+			section#login > div#formulario {
+				float: right;
+				width: 70%;
+			}
+			}
+			@media screen and (min-width: 992px) {
+		    body{
+				background-image: linear-gradient(to top, #49a09d, #5f2c82);
+			}
+			
+			section#login {
+				width: 950px;
+				height: 350px;
+			}
+			section#login > div#imagem {
+				float: right;
+				width: 50%;
+				height: 100%;
+			}
+			section#login > div#formulario {
+				float: left;
+				width: 50%;
+			}
+			div#formulario > h1 {
+				font-size: 2em;
+			}
+			div#formulario > h1 {
+				font-size: 1.2em;
+			}
+			}
     </style>
 </head>
 <body>
@@ -20,11 +178,11 @@
 			<form action="login.php" method="POST" autocomplete="on">
               
             <div class="campo">
-                    <label for="ilogin">Login</label>
-                    <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" placeholder="Seu nome completo" minlength="30" maxlength="50" required>
             <div>
 			<div class="campo">
-			<label for="ilogin">Login</label>
+			<label for="ilogin">E-mail</label>
 			<input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
             </div>
 
@@ -33,6 +191,11 @@
 			<label for="ilogin">Senha</label>
 			<input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
 			</div>
+
+            <div class="campo">
+                <label for="iconfirme">Senha</label>
+                <input type="password" name="confirme" id="iconfirme" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                </div>
 
 			<input type="submit" value="Entrar" id="entrar">
 			<a href="esqueci.html" class="botao">
