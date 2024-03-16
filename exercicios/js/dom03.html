@@ -15,12 +15,12 @@
  
                   </style>
            <script>
-       function calCular() {
+       function calcular() {
      var tn1 = window.document.getElementById('txtn1')
       var tn2 = window.document.getElementById('txtn2')
      var res = window.document.getElementById('res')
       var n1 = Number(tn1.value)
-      var n2 = Number.(tn2.value)
+      var n2 = Number(tn2.value)
          var s = n1 + n2
          res.innerHTML = s 
       }
@@ -30,7 +30,7 @@
      <h1>Somando Valores</h1>
       <input type="number" name="txtn1" id="txtn1"> +
        <input type="number" name="txtn2" id="txtn2">
-    <input type="button" value="Somar"  onclick="calCular()">
+    <input type="button" value="Somar"  onclick="calcular()">
      <div id="res">Resultado:</div>
         
           </body>
