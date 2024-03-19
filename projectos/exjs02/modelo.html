@@ -6,21 +6,32 @@
     <title>Hora do Dia</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body onload='carregar()'>
+<body>
     <header>
-        <h1>Hora do Dia</h1>
+        <h1>Verificador de Idade</h1>
     </header>
     <section>
-        <div id="msg">
-            Aqui aparece a mensagem
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radiosex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radiosex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificador" onclick="verificar()">
+            </p>
         </div>
-        <div id="foto">
-            <img id="imagem" src="manha.png" alt="Foto do dia">
+        <div id="res">
+            Preencha os dados acima ra ver o resultado! 
         </div>
     </section>
     <footer>
         <p>&copy: Cryptogames</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="/programacao/projectos/exjs02/script.js"></script>
 </body>
 </html>
