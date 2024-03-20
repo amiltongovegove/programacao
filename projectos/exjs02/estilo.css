@@ -20,6 +20,11 @@ div {
     padding: 8px;
 }
 
+img {
+    padding-top: 10px;
+    border-radius: 50%;
+}
+
 footer {
     color: white;
     text-align: center;
