@@ -21,7 +21,8 @@ div {
 }
 
 img {
-    padding-top: 10px;
+    display: block;
+    margin: auto;
     border-radius: 50%;
 }
 
