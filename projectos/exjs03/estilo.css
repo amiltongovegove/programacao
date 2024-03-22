@@ -16,16 +16,6 @@ section {
     margin: auto;
 }
 
-div {
-    padding: 8px;
-}
-
-img {
-    display: block;
-    margin: auto;
-    border-radius: 50%;
-}
-
 footer {
     color: white;
     text-align: center;
